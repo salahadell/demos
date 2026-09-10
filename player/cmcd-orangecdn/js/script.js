@@ -15,7 +15,7 @@ function setupPlayerWithCmcd() {
       preferredTech: [{ player: 'html5', streaming: 'hls' }],
     },
     analytics: {
-      key: '23c016d2-f127-4c02-bdd2-9724a2774903',
+      key: 'c1ee82af-f36a-47d8-a478-a165693a8efa',
       customUserId: '1111-111111-111111-11111',
       videoId: 'art-of-motion',
       title: 'Art of Motion',
@@ -55,7 +55,7 @@ function setupPlayerWithCmcd() {
   cmcdIntegration.setPlayer(player);
 
   const source = {
-    hls: 'https://democmcd-bmv-hdx.cdb.demo4orange.com/content/assets/art-of-motion-dash-hls-progressive/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8',
+    hls: 'https://democmcd.cdb-staging.cdn.orange.com/bitmovin/content/assets/art-of-motion-dash-hls-progressive/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8',
     poster: 'https://cdn.bitmovin.com/content/assets/art-of-motion-dash-hls-progressive/poster.jpg',
     thumbnailTrack: {
       url: 'https://cdn.bitmovin.com/content/assets/art-of-motion-dash-hls-progressive/thumbnails/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.vtt',
